@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Stop Watch</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="timer-container">
+    <div class="stopwatch">
+      <div class="timer">
+        <h2 id="stop-head">⏱️ <b>Stop Watch</b> ⏱️</h2>
+        <h2 id="timer"><label id="min">00</label>:<label id="sec">00</label><label id="ms">.00</label></h2>
+        <h5>Made By <a href="https://github.com/BeastBoyADI">BeastBoyADI</a> &copy; 2022</h5>
+      </div>
+      <div class="buttons">
+        <button class="button" onclick="startTimer()" id="start">
+          Start
+        </button>
+        <button class="button" onclick="pauseTimer()" id="pause">
+          Pause
+        </button>
+        <button class="button" onclick="resetTimer()" id="reset">
+          Reset
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="main.js">
+</script>
+
+</html>
