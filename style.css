@@ -1,0 +1,80 @@
+body {
+  font-size: 15pt;
+  background-color: lightgray;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-container {
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.stopwatch {
+  width: 500px;
+  height: 500px;
+  background-color: #363636;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+
+#stop-head {
+  font-size: 25pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white
+}
+
+.timer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 20pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+#ms {
+  color: red;
+}
+
+.button {
+  margin: 10px;
+  color: #363636;
+  border-radius: 20%;
+  padding: 10px;
+  background-color: white;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttons {
+  padding-bottom: 60px;
+}
+
+a {
+  color: cyan;
+}
+
+#start {
+  background-color: greenyellow;
+}
+
+#reset {
+  background-color: orangered;
+}
